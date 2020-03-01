@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <script>
+        let arrNumber = [];
+        for (let index=0;index<2;index++){
+            arrNumber[index] = prompt("Enter 2 number:");
+        }
+        alert(changePositon(arrNumber));
+        alert("Array Number after change position" + arrNum);
+        function changePositon(arrayNum) {
+            for (let index = 0;index<2;index++){
+                let temp;
+                temp = arrayNum[index];
+                arrayNum[index]=arrayNum[index+1];
+                arrayNum[index+1] = temp;
+            }
+            return arrayNum;
+        }
+    </script>
+</body>
+</html>

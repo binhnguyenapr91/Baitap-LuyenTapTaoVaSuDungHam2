@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arrNum = [];
+    for(let index = 0 ; index < 3;index++){
+        arrNum[index]=prompt("Enter number:");
+    }
+    showResult(findMin(arrNum));
+    function showResult(number) {
+        alert("Minimum is:"+number);
+    }
+    function findMin(arrNumber) {
+        let min = arrNumber[0];
+        for (let index = 1 ; index<3;index++){
+            if (arrNumber[index]<min){
+                min = arrNumber[index];
+            }
+        }
+        return min;
+    }
+</script>
+</body>
+</html>

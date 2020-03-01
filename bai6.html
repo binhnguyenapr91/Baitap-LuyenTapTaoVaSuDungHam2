@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let inputNumber = prompt("Enter the number:");
+    let status = false;
+    processNumber(inputNumber);
+    alert(status);
+    function processNumber(number) {
+        if (number>=0){
+            status = true;
+        }else {
+            status = false;
+        }
+        return status;
+    }
+</script>
+</body>
+</html>

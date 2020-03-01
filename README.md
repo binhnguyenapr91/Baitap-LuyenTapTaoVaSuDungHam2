@@ -4,7 +4,7 @@ Mô tả
 Để hoàn thành bài thực hành, học viên cần:
 
 Đưa mã nguồn lên GitHub
-Dán link của repository lên phần nộp bài trên CodeGymX
+Dán link của repository lên phần nộp bài trên CodeGymX<br>
 Bài 1: Viết hàm tính bình phương của một số bất kỳ được đưa vào. Gọi hàm vừa xây dựng được.
 
 Bài 2: Viết hàm tính diện tích, hàm tính chu vi hình tròn. Gọi hàm vừa xây dựng được
