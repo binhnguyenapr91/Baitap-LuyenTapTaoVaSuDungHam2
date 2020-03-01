@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let radius;
+    let area;
+    let circumference;
+    const PI = 3.14;
+
+    function calcArea(inputRadius) {
+        area = inputRadius * inputRadius * PI;
+        return area;
+    }
+
+    function calcCircumference(inputRadius) {
+        circumference = 2 * inputRadius * PI;
+        return area;
+    }
+
+    radius = prompt("Enter the radius:");
+
+    if (radius<=0){
+        alert("The radius is not available");
+    }else{
+        calcArea(radius);
+        calcCircumference(radius);
+    }
+    alert("Area of the circle is:"+area+"| The Circumference of the circle is:"+circumference);
+</script>
+</body>
+</html>
